@@ -15,7 +15,6 @@ html{
 
 #headerr::before{  
     content: "";
-    background-color: black;
     position: absolute;
     top:0px;
     left:0px;
@@ -23,14 +22,15 @@ html{
     /* width:100%; */
     z-index: -1;
     opacity: 0.7;
-    position: sticky;
+    
 }
 #headerr{
     display: flex;
     align-items: center;
     position: sticky;
-    /* background-color: violet; */
+    /* opacity: 0.5; */
     top: 0px;
+    z-index: 2;
 }
 
 .logo {
@@ -125,6 +125,12 @@ display: block;
 .btn:hover {
     background-color:rgba(77, 0, 0, 1);
 }
+#socialmedia{
+    z-index: 2;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 10px;
+}
 
 #home{
     display: flex;
@@ -134,12 +140,17 @@ display: block;
     font-family: 'Baloo Chettan 2', cursive;
     color: #f2f2f2;
 }
+
+
+
     
 #home h3{
   
     font-family: 'Russo One', sans-serif;
     margin-top: 230px;
     margin-left: 150px;
+    z-index: 1;
+    
 }
 
 
@@ -163,7 +174,7 @@ display: block;
     margin-left: 170px;
     font-size: 20px;
     padding: 4px 10px;
-    position: relative;
+    z-index: 1;
     
 }
 
@@ -181,7 +192,7 @@ display: block;
 }
 
 #choose{
-    margin-top: 300px;
+    margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,14 +204,14 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 
 
 .category {
     color: rgb(181, 225, 231);
-    background-color: rgb(124, 166, 172);
+    /* background-color: rgb(124, 166, 172); */
     
     padding-top: 130px;
     border-radius: 5px;
@@ -208,8 +219,8 @@ display: block;
    
     box-sizing: border-box;
     /* display: inline-block; */
-    width: 33%;
-    height: 200px;
+    width: 100%;
+    /* height: 200px; */
     text-align: center;
     transition: cubic-bezier(1, 0, 0, 1);
 }
@@ -240,6 +251,7 @@ display: block;
     width: 35%; */
     box-shadow: 5px 7px 8px rgb(205, 204, 207);
 }
+
 #clients{
     position: relative;
     height: 300px;
@@ -267,7 +279,6 @@ color: black;
     height: 150px;
     
 }
-
 #contactus{
     position: relative;
     height: 300px;
@@ -302,7 +313,7 @@ color: black;
 .form-grp input {
     font-family: 'Baloo Bhai', cursive;
     text-align: center;
-    width: 350px;
+    width: 30%;
     padding: 1px;
     border: 2px solid black;
     margin: 5px 10px;
@@ -312,7 +323,7 @@ color: black;
 }
 
 .container button {
-    width: 350px;
+    width: 30%;
     margin-left: 10px;
     border-radius: 12px;
 }
