@@ -1,0 +1,347 @@
+.body {
+    /* background-image: url("https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
+    background-color:rgb(0, 0, 0);
+    /* z-index: -2; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    
+    /* opacity: 0.3; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#headerr::before{  
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    /* width:100%; */
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+#headerr{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* opacity: 0.5; */
+    top: 0px;
+    z-index: 2;
+}
+
+.logo {
+    color: rgb(204, 192, 233);
+    font-family: 'Baloo Chettan 2', cursive;
+    /* display: inline-block; */
+    top: 0px;
+    margin: 10px 20px;
+}
+
+.logo img {
+    padding-left: 35%;
+    width: 25%;
+    /* position: sticky; */
+    /*i don't know why this isn't working*/
+}
+
+.logo div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.navbar {
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 75%; */
+    /* margin: 20px 300px; */
+}
+
+.navbar ul {
+
+    display: flex;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.navbar ul li{
+
+   list-style: none;
+}
+
+
+.navbar ul li a {
+    /* font-family: o; */
+    font-family: 'Baloo Paaji 2', cursive;
+display: block;
+    color: white;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 15px;
+
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    /* text-decoration: underline; */
+    color: teal;
+    background-color: rgb(2, 2, 2);
+    border-radius: 10px;
+}
+
+.rightcorner {
+    /* padding-left: 530px; */
+    position: absolute;
+     right: 34px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    padding: 7px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn a {
+    color: white;
+    background-color: black;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    padding: 7px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color:rgba(77, 0, 0, 1);
+}
+#socialmedia{
+    z-index: 2;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    font-size: 25px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #f2f2f2;
+}
+
+
+
+    
+#home h3{
+  
+    font-family: 'Russo One', sans-serif;
+    margin-top: 230px;
+    margin-left: 150px;
+    z-index: 1;
+    
+}
+
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../home.jpg') no-repeat center center/cover;
+    height: 600px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.7;
+} 
+
+#joinbtn{
+    color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 170px;
+    font-size: 20px;
+    padding: 4px 10px;
+    z-index: 1;
+    
+}
+
+#joinbtn:hover{
+    transition: 1s ease;
+    background-color:black;
+    color: chartreuse;
+    
+}
+
+/* choose a category */
+
+.comcat-container{
+    margin-top: 0px;
+}
+
+#choose{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 2em ;
+}
+
+
+.comcat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+}
+
+
+
+.category {
+    color: rgb(181, 225, 231);
+    /* background-color: rgb(124, 166, 172); */
+    
+    padding-top: 130px;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+   
+    box-sizing: border-box;
+    /* display: inline-block; */
+    width: 100%;
+    /* height: 200px; */
+    text-align: center;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+#weightloss {
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/04/16/11/weightloss.png");
+    background-size: cover;
+}
+
+#musclegain {
+    background-image: url("https://cdn6.omidoo.com/sites/default/files/imagecache/1200x630/images/headline/201612/muscleguy.jpg");
+    background-size: cover;
+}
+
+#fitness {
+    background-image: url("https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+
+}
+.category:hover {
+    transition: 0.6s ease ;
+    color: blanchedalmond;
+
+    /* background-color: black; */
+    cursor: pointer;
+    transform: scale(1.2);
+    /* height: 250px;
+    width: 35%; */
+    box-shadow: 5px 7px 8px rgb(205, 204, 207);
+}
+
+#clients{
+    position: relative;
+    height: 300px;
+}
+#clients::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    opacity: 0.8;
+    z-index: -1;
+    background: url("https://biexplained.com/wp-content/uploads/2020/09/bg-cut.jpg") no-repeat center center/cover;
+}
+#clients h3{
+opacity: 0.9;
+color: black;
+}
+.clientimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img{
+    height: 150px;
+    
+}
+#contactus{
+    position: relative;
+    height: 300px;
+}
+#contactus::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+    z-index: -1;
+    background: url("https://www.relianceglobalcall.com/Images/contact-us-banner.jpg") no-repeat center center/cover;
+}
+#contactus h3{
+opacity: 0.9;
+color: black;
+}
+.container {
+    /* margin-left: 100px; */
+    /* margin-top: 10%; */
+    /* padding: 20px; */
+
+    font-size: 25px;
+    font-family: 'Baloo Chettan 2', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* align-items: center; */
+    margin-left: 100px;
+}
+
+.form-grp input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    width: 30%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container button {
+    width: 30%;
+    margin-left: 10px;
+    border-radius: 12px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 100px;
+
+}
+.heading{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;  
+}
+
+
