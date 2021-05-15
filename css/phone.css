@@ -4,8 +4,8 @@
 }
 .navbar ul li a{
     font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
+    padding-right: 4px;
+    margin: 0px;
 }
 #home{
     height: 370px; 
