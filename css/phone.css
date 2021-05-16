@@ -46,6 +46,17 @@
     width:80%;
     margin: 0px 0px;
 }
+.form-grp input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    width: 30%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px 5px;
+    margin-top: 0px;
+    font-size: 8px;
+    border-radius: 8px;
+}
  
 
 .heading{
@@ -55,4 +66,3 @@
     font-size: 13px;
     padding: 4px 8px;
 }
-
