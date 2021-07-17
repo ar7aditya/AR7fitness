@@ -1,0 +1,68 @@
+#headerr{
+    
+    flex-direction: column;
+}
+.navbar ul li a{
+    font-size: 1rem;
+    padding-right: 4px;
+    margin: 0px;
+}
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+    overflow: hidden;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home h3{
+    font-size: 18px;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+#joinbtn{
+    margin-left: 130px;
+    font-size: 12px;
+    padding: 3px 6px;
+    
+    
+}
+.comcat{
+    flex-direction: column;
+
+}
+.category{
+    margin-bottom: 20px;
+    width: 80%;
+
+}
+#contactus{
+    width:100%;
+}
+#contactus .form-grp{
+    width:80%;
+    margin: 0px 0px;
+}
+.form-grp input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    width: 30%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px 5px;
+    margin-top: 0px;
+    font-size: 8px;
+    border-radius: 8px;
+}
+ 
+
+.heading{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
