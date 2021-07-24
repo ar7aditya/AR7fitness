@@ -41,7 +41,10 @@ const mongoose = require('mongoose');
 const bodyparser = require( "body-parser" );
 const port = 80;
 
-mongoose.connect('mongodb://localhost:27017/rana', {useNewUrlParser: true, useUnifiedTopology: true});
+//mongoose.connect('mongodb://localhost:27017/rana', {useNewUrlParser: true, useUnifiedTopology: true});
+
+mongoose.connect('mongodb+srv://ar7fitness:Aroo7aditya@@cluster0.d2w23.mongodb.net/AR7fitness', {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 
 const contactSchema = new mongoose.Schema({
