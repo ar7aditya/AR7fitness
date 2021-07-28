@@ -11,7 +11,6 @@ html{
     top:0px;
     left:0px;
     height: 100%;
-    /* width:100%; */
     z-index: -1;
     opacity: 0.7;
     
@@ -20,15 +19,13 @@ html{
     display: flex;
     align-items: center;
     position: sticky;
-    /* opacity: 0.5; */
     top: 0px;
     z-index: 2;
 }
 
 .logo {
     color: rgb(204, 192, 233);
-    font-family: 'Baloo Chettan 2', cursive;
-    /* display: inline-block; */
+    font-family: 'Baloo Chettan 2';
     top: 0px;
     margin: 10px 20px;
 }
@@ -56,36 +53,33 @@ html{
 .navbar ul {
 
     display: flex;
-    font-family: 'Baloo Paaji 2';
 }
 
 .navbar ul li{
 
    list-style: none;
+   margin: 15px;
 }
 
 
 .navbar ul li a {
-    /* font-family: o; */
     font-family: 'Baloo Paaji 2';
     display: block;
     color: white;
     text-decoration: none;
     padding: 3px 10px;
-    margin: 15px;
+    
 
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.active {
-    /* text-decoration: underline; */
+.navbar ul li :hover,
+.navbar ul li .active {
     color: teal;
     background-color: rgb(2, 2, 2);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .rightcorner {
-    /* padding-left: 530px; */
     position: absolute;
      right: 34px;
 }
@@ -93,7 +87,6 @@ html{
 .btn {
     color: white;
     background-color: black;
-    /* border: 3px solid black; */
     border-radius: 15px;
     padding: 7px;
     cursor: pointer;
@@ -102,7 +95,6 @@ html{
 
 .btn a {
     color: white;
-    background-color: black;
     border-radius: 15px;
     padding: 7px;
     cursor: pointer;
@@ -156,8 +148,8 @@ html{
 } 
 
 #joinbtn{
-    color: blanchedalmond;
-    border: 2px solid black;
+    color: white;
+    border: 2px solid white;
     border-radius: 8px;
     text-decoration: none;
     margin-left: 170px;
@@ -169,7 +161,7 @@ html{
 
 #joinbtn:hover{
     transition: 1s ease;
-    background-color:black;
+    background-color:rgb(255, 255, 255);
     color: chartreuse;
     
 }
@@ -193,7 +185,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* z-index: 1; */
 }
 
 
@@ -309,7 +300,7 @@ color: black;
 
 .container button {
     width: 30%;
-    border-radius: 12px;
+    border-radius: 8px;
     margin: 5px 10px;
     margin-top: 0px;
 }
@@ -323,6 +314,8 @@ color: black;
     margin-top: 100px;
 
 }
+
+/* general stuff */
 .heading{
     font-family: 'Russo One', sans-serif;
     color: white;
