@@ -1,39 +1,4 @@
-// const express = require("express");
-// const fs = require("fs");
-// const app = express();
-// const bodyParser = require("body-parser");
-// const port = 80;
-
-// app.use(bodyParser.urlencoded({extended:true}));
-// app.use(express.static('public'))
- 
-// // ENDPOINTS
-// app.get('/', (req, res)=>{
-//     res.sendFile(__dirname +'/index.html'); 
-// })
-
-// app.post('/', (req, res)=>{
-//     name = req.body.name,
-//     age = req.body.age,
-//     gender = req.body.gender,
-//     mail = req.body.mail,
-//     contact = req.body.contact
-//     let outputToWrite = `the name of the client is ${name}, ${age} years old, ${gender}, residing at mail ${mail}, contact : ${contact}`
-//     fs.writeFileSync('output.txt', outputToWrite);
-//     res.sendFile(__dirname +'/index.html');
-// })
-// // START THE SERVER
-// app.listen(port, ()=>{
-//     console.log(`The application started successfully on port ${port}`);
-// });  
-      
-      
-  
-
-
-
-
-   // to save the data in mongodb database
+ // to save the data in mongodb database
 const express = require("express");
 const path = require("path");
 const app = express();
