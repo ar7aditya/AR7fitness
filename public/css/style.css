@@ -164,11 +164,11 @@ html{
 /* choose a category */
 
 .comcat-container{
-    margin-top: 0px;
+    margin-top: 100px;
 }
 
 #choose{
-    margin-top: 150px;
+    margin-top: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,6 +225,7 @@ html{
 #clients{
     position: relative;
     height: 300px;
+    margin-top: 100px;
 }
 #clients::before{
     content: "";
