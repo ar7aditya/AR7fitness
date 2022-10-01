@@ -11,7 +11,7 @@ Entry Point: index.html (Do not change, it must always be this)
 
 ## Rules:
 - Create an issue and then do a pull request
-- Minimize big changes, Keep the changes small
+- Minimize big changes, Keep the changes small.
 - Write good-quality code with comments also.
 
 ## How to make changes?
